@@ -27,7 +27,7 @@
     <br>
     <button class="show-table" type="button" @click="showSizeTable">{{ languageSet[language]['choose-size-yourself'] }}</button>
     <div v-show="showSizeTableFlag">
-      <img alt="Size table" src="../assets/abc.png">
+      <img alt="Size table" src="../assets/table.png">
     </div>
     <br>
 <!--    <h3>{{ languageSet[language]['check-accuracy'] }}</h3>-->
