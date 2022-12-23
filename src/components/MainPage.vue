@@ -130,7 +130,7 @@ export default {
       const reader = new FileReader();
       reader.readAsText(file);
       reader.onload = () => {
-        const lines = reader.result.split('\r\n');
+        const lines = reader.result.split('\n');
         lines.forEach(line => {
           const [gender, weight, height, size] = line.split(',');
           if (gender === 'Gender') {
@@ -190,7 +190,7 @@ export default {
       const reader = new FileReader();
       reader.readAsText(file);
       reader.onload = () => {
-        const lines = reader.result.split('\r\n');
+        const lines = reader.result.split('\n');
         lines.forEach(line => {
           const [gender, weight, height, size] = line.split(',');
           if (gender && weight && height && size)
